@@ -4,7 +4,7 @@ import os
 img = list(map(str,range(1,31)))
 for img_name in img:
     
-    image_dir = f"C:/Users/SSAFY/Desktop/시니지니/CNN이미지/Face-recognition-using-CNN/img/{img_name}/"
+    image_dir = f"C:/Users/oops5/OneDrive/Desktop/SSAFY/최종관통/Face-recognition-using-CNN/test_img/{img_name}/"
 
     # 파일 번호 초기화
     file_num = 1

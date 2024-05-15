@@ -2,7 +2,7 @@ import os
 import csv
 
 # 이미지 파일이 있는 디렉토리 경로
-image_dir = "./img/"
+image_dir = f"C:/Users/oops5/OneDrive/Desktop/SSAFY/최종관통/Face-recognition-using-CNN/train_img/"
 name_list = list(map(str,range(1,31)))
 
 
@@ -15,7 +15,7 @@ name_list = list(map(str,range(1,31)))
 #     list_num += len(os.listdir(f"./img/{i}"))
 # print(list_num)
 # CSV 파일 경로
-csv_file_path = "./labels.csv"
+csv_file_path = "./train_labels.csv"
 
 # 파일 이름을 라벨로 사용하여 CSV 파일에 데이터 추가
 with open(csv_file_path, "w", newline="") as csv_file:
